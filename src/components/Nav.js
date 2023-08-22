@@ -33,7 +33,7 @@ const SEARCH_API ="https://api.themoviedb.org/3/search/movie?&api_key=7ecd0b11bc
             onChange={handleOnChange}/>
             </form>
             <Router>
-            <Link to="/Bookmark" activeClassName="selected" className="line title">&#128278;({bookmark.length})</Link>
+            <Link to="/Bookmark" activeClassName="selected" className="line title">Bookmark &#128278;({bookmark.length})</Link>
             <Route exact path='/Bookmark'> <Bookmark setmovies={setmovies}/> </Route> 
             </Router>
       </header>
