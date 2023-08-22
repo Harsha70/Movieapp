@@ -21,7 +21,7 @@ const App = () => {
       setmovies(MoviesR.results)
     }
     fetchData()
-  })
+  },[])
 
 
   return (
